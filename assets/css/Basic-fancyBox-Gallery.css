@@ -51,3 +51,18 @@ body{
   height:20rem;
   width:18rem;
 }
+
+@media only screen and (min-width: 992px) {
+  #mainNav.is-visible{
+    transform: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #mainNav.is-fixed {
+  position: fixed;
+  top: -67px;
+  border-bottom: none;
+  background-color: transparent;
+  }
+}
